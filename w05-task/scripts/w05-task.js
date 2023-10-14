@@ -30,6 +30,7 @@ const displayTemples = (temples) => {
             const data = await response.json();
             templeList.push(data);             
             displayTemples(templeList); 
+            console.log(templeList);
          }
         
 }
